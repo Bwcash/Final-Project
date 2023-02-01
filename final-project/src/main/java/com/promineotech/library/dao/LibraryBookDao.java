@@ -5,6 +5,7 @@ package com.promineotech.library.dao;
 
 import java.util.List;
 
+
 import com.promineotech.library.entity.Books;
 
 /**
@@ -18,6 +19,6 @@ public interface LibraryBookDao {
  */
 	List<Books> fetchAllBooks();
 
-List<Books> fetchBooksByAuthor(String author_name);
+List<Books> updateBookStatus(String book_status, String book_title);
 
 }

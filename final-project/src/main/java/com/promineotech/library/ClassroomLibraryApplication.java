@@ -10,7 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @author Bryce Cash
  *
  */
-@SpringBootApplication
+@SpringBootApplication(scanBasePackageClasses = {ComponentScanMarker.class})
 public class ClassroomLibraryApplication {
 
 	/**

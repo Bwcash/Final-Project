@@ -18,6 +18,10 @@ public interface LibraryBookService {
  */
 	List<Books> fetchAllBooks();
 
-List<Books> fetchBooksByAuthor(String author_name);
+List<Books> updateBookStatus(String book_status, String book_title);
+
+
+
+
 
 }
